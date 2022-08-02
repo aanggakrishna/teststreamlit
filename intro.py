@@ -10,4 +10,4 @@ dwn_url='https://drive.google.com/uc?id=' + file_id
 df = pd.read_csv(dwn_url)
 
 
-st.show(df)
+st.table(df)
