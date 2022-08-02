@@ -6,4 +6,4 @@ st.write("Hellow World")
 
 df = pd.read_csv("store.csv")
 
-st.table(df)
+st.table(df.head(5))
